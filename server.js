@@ -30,8 +30,6 @@ app.get('/seed', async (req, res) => {
 });
 
 
-
-
 const DB_CONNECTION = process.env.MONGO_URI;
 const PORT = process.env.PORT || 6001;
 
